@@ -12,7 +12,6 @@ A responsive portfolio web app where viewers can view my personal projects, as w
 - [Installation](#installation)
 - [Usage](#usage)
 - [Future Development Plans](#future-development-plans)
-- [Contact](#contact)
 
 ## Live Demo
 
@@ -86,6 +85,3 @@ Although the app is functioning properly, I plan to make further improvements in
 - Continuously improve the UI/UX based on user feedback to enhance the overall user experience and visual appeal.
 - Add a blog section to share my thoughts and insights on the web development topics and trends.
 
-## Contact
-
-If you have any questions or suggestions about the portfolio, please feel free to contact me at rahilbinmushfiq@gmail.com or [LinkedIn](https://www.linkedin.com/in/rahilbinmushfiq).
