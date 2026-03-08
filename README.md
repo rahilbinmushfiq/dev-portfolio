@@ -70,7 +70,6 @@ This web app is built for the users to browse through my portfolio and reach out
   - Skills section: Highlights my technical skills, such as programming languages, frameworks, and tools I am proficient in.
   - About section: Shares more information about my background, interests, and passion for web development.
   - Portfolio section: Showcases my personal projects, including their mockup images and brief descriptions. Each project has three call-to-action buttons linking to its respective project-details page, live demo, and GitHub repository.
-  - Contact section: Provides my contact information and a contact form for viewers to get in touch with me.
 - Project-details page: A dynamic page that displays the details of a project based on the URL parameter. Each project has its own unique page, accessible through the project list on the Portfolio section of homepage. It includes:
   - Brief summary of the selected project.
   - Mockup images to provide viewers with a visual representation of how the app looks on different devices.

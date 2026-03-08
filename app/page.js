@@ -3,7 +3,6 @@ import Hero from "./components/pages/home/sections/Hero";
 import Skills from "./components/pages/home/sections/Skills";
 import About from "./components/pages/home/sections/About";
 import Portfolio from "./components/pages/home/sections/Portfolio";
-import Contact from "./components/pages/home/sections/Contact";
 
 export const metadata = {
   title: 'Rahil Bin Mushfiq | Web Developer',
@@ -50,7 +49,6 @@ export default function Home() {
       <Skills />
       <About />
       <Portfolio />
-      <Contact />
     </Main>
   );
 }

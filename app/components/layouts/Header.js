@@ -232,20 +232,17 @@ export default function Header() {
             <li>
               <Link href="/#portfolio">Portfolio</Link>
             </li>
-            <li>
-              <Link href="/#contact">Contact</Link>
-            </li>
           </ul>
         </nav>
         <div className="hidden lg:block">
-          {/* External Link for Resume */}
+          {/* External Link for Upwork profile */}
           <Link
             className="flex items-center gap-x-1.5 px-5 py-2.5 rounded-sm text-white border border-primary-light bg-primary-light transition-colors duration-500 ease-out hover:text-primary-light hover:bg-transparent"
-            href="https://docs.google.com/document/d/1nCZldsmV5JrF_jXrnADkXBA9xHMP88TSv8ox-dNVsXc/edit?usp=sharing"
+            href="https://www.upwork.com/freelancers/~010a03369ff69e02ad"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <p className="text-xs/none 2xl:text-sm/none dpr-lg:text-xs/none">Resume</p>
+            <p className="text-xs/none 2xl:text-sm/none dpr-lg:text-xs/none">Hire me</p>
             <CgExternal size={16} />
           </Link>
         </div>
@@ -267,17 +264,14 @@ export default function Header() {
               <Link href="/#portfolio">Portfolio</Link>
             </li>
             <li>
-              <Link href="/#contact">Contact</Link>
-            </li>
-            <li>
-              {/* External Link for Resume */}
+              {/* External Link for Upwork Profile */}
               <Link
                 className="flex justify-center items-center gap-x-2 w-fit px-6 py-3 rounded-sm border border-white sm:px-8 sm:py-4"
-                href="https://docs.google.com/document/d/1nCZldsmV5JrF_jXrnADkXBA9xHMP88TSv8ox-dNVsXc/edit?usp=sharing"
+                href="https://www.upwork.com/freelancers/~010a03369ff69e02ad"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <p>Resume</p>
+                <p>Hire me</p>
                 <CgExternal size={20} />
               </Link>
             </li>

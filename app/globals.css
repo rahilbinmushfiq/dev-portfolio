@@ -69,27 +69,6 @@
     @apply flex justify-center items-center gap-x-2 w-full h-full font-medium [&>p]:select-none [&>p]:text-xs [&>svg]:text-xl sm:[&>p]:text-sm dpr-xl:[&>p]:text-xs;
   }
 
-  .form-field-wrapper {
-    @apply flex flex-col gap-y-2;
-  }
-
-  .form-field-wrapper label {
-    @apply font-semibold text-neutral-500;
-  }
-
-  .form-field-wrapper input,
-  .form-field-wrapper textarea {
-    @apply w-full p-3 rounded-sm bg-neutral-200 outline-none caret-primary-base ring-2 ring-neutral-200 transition-colors duration-[400ms] ease-out focus:bg-white focus:ring-primary-base;
-  }
-
-  .alt-contact-option {
-    @apply flex items-center gap-x-4 font-semibold [&>svg]:text-xl [&>svg]:text-white xl:gap-x-6 2xl:[&>svg]:text-2xl 3xl:[&>svg]:text-3xl;
-  }
-
-  .alt-contact-option a {
-    @apply underline decoration-2 underline-offset-2 decoration-transparent text-gray-200 transition-colors duration-500 ease-out hover:text-white hover:decoration-inherit;
-  }
-
   .project-page-btn {
     @apply w-[45%] h-12 rounded-sm border border-primary-base transition-colors duration-500 ease-out hover:border-primary-light xs:w-5/12 xs:h-[52px] sm:w-1/4 lg:w-1/5 xl:w-[17%] dpr-lg:w-1/5 dpr-xl:w-1/4;
   }

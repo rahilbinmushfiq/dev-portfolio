@@ -74,21 +74,6 @@ export default function Hero() {
     return () => ctx.revert(); // Clean up the GSAP animations when the component unmounts
   }, []);
 
-  // Function that handles hero button click event to scroll down to its corresponding section
-  const handleHeroButtonClick = (event) => {
-    event.preventDefault();
-
-    gsap.registerPlugin(ScrollToPlugin);
-    gsap.to(window, {
-      duration: 0.5,
-      ease: 'power1.inOut',
-      scrollTo: {
-        y: event.target.hash,
-        offsetY: window.innerWidth < 1024 ? 80 : 86,
-      },
-    });
-  };
-
   return (
     <section id="hero" ref={sectionRef} className="home-section invisible flex flex-col justify-center min-h-[98vh] pt-12 mt-[80px] xs:min-h-0 xs:h-[calc(100dvh_-_80px)] xs:pt-0 lg:mt-[86px] lg:h-[calc(100dvh_-_86px)] landscape:min-h-0 landscape:pt-0">
       <div className="grow flex flex-col gap-y-4 xl:flex-row xl:gap-y-0">
@@ -108,13 +93,29 @@ export default function Hero() {
           {/* Hero Section Buttons */}
           <div ref={buttonRefs} className="flex gap-x-4 [&>button]:hero-button dpr-lg:gap-x-3">
             <button className="bg-primary-base text-white hover:bg-primary-light">
-              <Link href="/#portfolio" onClick={handleHeroButtonClick}>
+              <Link href="/#portfolio" onClick={(event) => {
+                event.preventDefault();
+
+                gsap.registerPlugin(ScrollToPlugin);
+                gsap.to(window, {
+                  duration: 0.5,
+                  ease: 'power1.inOut',
+                  scrollTo: {
+                    y: event.target.hash,
+                    offsetY: window.innerWidth < 1024 ? 80 : 86,
+                  },
+                });
+              }}>
                 See my work
               </Link>
             </button>
             <button className="text-primary-base hover:bg-primary-light hover:text-white">
-              <Link href="/#contact" onClick={handleHeroButtonClick}>
-                Contact me
+              <Link
+                href="https://www.upwork.com/freelancers/~010a03369ff69e02ad"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Hire me
               </Link>
             </button>
           </div>
