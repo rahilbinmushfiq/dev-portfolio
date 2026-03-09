@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import Cover from "./subcomponents/Cover";
 import Hero from "./sections/Hero";
@@ -29,30 +29,37 @@ export default function Section({ project }) {
     const ctx = gsap.context(() => {
       // Initialize the timeline for page reveal animation (when component mounts)
       const tl = gsap.timeline({
-        defaults: { autoAlpha: 0, ease: 'power1.inOut' },
+        defaults: { autoAlpha: 0, ease: "power1.inOut" },
       });
 
       // Page reveal animation in timeline
       tl.set(articleElement, { autoAlpha: 1 })
-        .from(coverElement, { yPercent: -50, duration: 0.5 }, '<')
+        .from(coverElement, { yPercent: -50, duration: 0.5 }, "<")
         .from(headerElements, { y: 25, stagger: { amount: 0.25 } })
-        .from(buttonElements, { x: 50, stagger: 0.125 }, '<0.15')
-        .from(ndaElement, { y: 25 }, '<0.15')
-        .from(techHeadingElement, { y: 25, duration: 0.25 }, '<')
-        .from(techElements, { x: 50, stagger: 0.125 }, '<0.15');
+        .from(buttonElements, { x: 50, stagger: 0.125 }, "<0.15")
+        .from(ndaElement, { y: 25 }, "<0.15")
+        .from(techHeadingElement, { y: 25, duration: 0.25 }, "<")
+        .from(techElements, { x: 50, stagger: 0.125 }, "<0.15");
 
-      informativeSectionElements.forEach(informativeSectionElement => {
+      informativeSectionElements.forEach((informativeSectionElement) => {
         // Get the elements (heading, description, and points) of the informative section
-        const sectionHeadingElement = informativeSectionElement.querySelector('h2'),
-          sectionDescriptionElement = informativeSectionElement.querySelector('p'),
-          sectionPointElements = informativeSectionElement.querySelectorAll('li');
+        const sectionHeadingElement =
+            informativeSectionElement.querySelector("h2"),
+          sectionDescriptionElement =
+            informativeSectionElement.querySelector("p"),
+          sectionPointElements =
+            informativeSectionElement.querySelectorAll("li");
 
         // Animate the available elements of the informative section
-        tl.from(sectionHeadingElement, { y: 25, duration: 0.5 }, '<');
+        tl.from(sectionHeadingElement, { y: 25, duration: 0.5 }, "<");
         sectionDescriptionElement &&
-          tl.from(sectionDescriptionElement, { y: 25, duration: 0.5 }, '<');
+          tl.from(sectionDescriptionElement, { y: 25, duration: 0.5 }, "<");
         sectionPointElements &&
-          tl.from(sectionPointElements, { y: 25, stagger: { amount: 0.5 } }, '<');
+          tl.from(
+            sectionPointElements,
+            { y: 25, stagger: { amount: 0.5 } },
+            "<",
+          );
       });
     });
 
@@ -68,7 +75,7 @@ export default function Section({ project }) {
         projectMockups={project.mockups}
       />
       {/* Project Details */}
-      <div className="space-y-14 py-8 px-6 sm:px-12 sm:py-10 md:px-16 lg:py-14 lg:px-20 xl:px-64 2xl:px-0 2xl:max-w-[60rem] dpr-lg:max-w-[45rem] dpr-xl:max-w-[70rem] landscape:mx-auto">
+      <div className="space-y-14 py-8 px-6 sm:px-12 sm:py-10 md:px-16 lg:py-14 lg:px-20 xl:px-64 2xl:px-0 2xl:max-w-[60rem] dpr-lg:max-w-[55rem] xl:dpr-lg:max-w-[75rem] 2xl:dpr-lg:max-w-[45rem] landscape:mx-auto">
         {/* Hero Section */}
         <Hero
           heroSectionRef={heroSectionRef}
