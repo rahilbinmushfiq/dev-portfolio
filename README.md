@@ -15,7 +15,7 @@ A responsive portfolio web app where viewers can view my personal projects, as w
 
 ## Live Demo
 
-A live demo of the web app can be found [here](https://rahilbinmushfiq.vercel.app/).
+A live demo of the web app can be found [here](https://rahil-dev.vercel.app/).
 
 ## Technologies Used
 
@@ -33,12 +33,12 @@ A live demo of the web app can be found [here](https://rahilbinmushfiq.vercel.ap
 
 ## Installation
 
-The web app is already deployed [here](https://rahilbinmushfiq.vercel.app/). If you still wish to run this project on your local machine, follow these steps:
+The web app is already deployed [here](https://rahil-dev.vercel.app/). If you still wish to run this project on your local machine, follow these steps:
 
 1. Clone the repository to your local machine:
 
 ```bash
-  git clone https://github.com/rahilbinmushfiq/portfolio.git
+  git clone https://github.com/rahilbinmushfiq/dev-portfolio.git
 ```
 
 2. Change into the project directory:

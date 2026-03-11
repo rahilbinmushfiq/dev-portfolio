@@ -7,7 +7,7 @@ export const projects = [
       '/mockups/poshax/iPadPro.webp',
       '/mockups/poshax/iMacPro.webp',
     ],
-    openGraphImage: 'https://rahilbinmushfiq.vercel.app/_next/image?url=%2Fmockups%2Fposhax%2FallDevices.webp&w=1920&q=75',
+    openGraphImage: 'https://rahil-dev.vercel.app/_next/image?url=%2Fmockups%2Fposhax%2FallDevices.webp&w=1920&q=75',
     title: 'PoshaX',
     summary:
       'A full-stack fashion e-commerce platform offering a smooth shopping experience for customers and powerful management tools for staff members.',
@@ -73,7 +73,7 @@ export const projects = [
       '/mockups/gameOn/iPadPro.webp',
       '/mockups/gameOn/iMacPro.webp',
     ],
-    openGraphImage: 'https://rahilbinmushfiq.vercel.app/_next/image?url=%2Fmockups%2FgameOn%2FallDevices.webp&w=1920&q=75',
+    openGraphImage: 'https://rahil-dev.vercel.app/_next/image?url=%2Fmockups%2FgameOn%2FallDevices.webp&w=1920&q=75',
     title: 'Game On',
     summary: 'A responsive and interactive game review web app that allows users to browse, search, and filter video games, as well as to read and submit reviews.',
     informativeSections: [
@@ -134,8 +134,7 @@ export const projects = [
       '/mockups/youthlink/iPadPro.webp',
       '/mockups/youthlink/iMacPro.webp',
     ],
-    openGraphImage:
-'https://rahilbinmushfiq.vercel.app/_next/image?url=%2Fmockups%2Fyouthlink%2FallDevices.webp&w=1920&q=75',
+    openGraphImage: 'https://rahil-dev.vercel.app/_next/image?url=%2Fmockups%2Fyouthlink%2FallDevices.webp&w=1920&q=75',
     title: 'YouthLink Portfolio',
     summary:
       'A modern portfolio website for YouthLink Tech., showcasing its projects, services, and company background through a clean, animation-rich experience.',
@@ -180,7 +179,7 @@ export const projects = [
       '/mockups/portfolio/iPadPro.webp',
       '/mockups/portfolio/iMacPro.webp',
     ],
-    openGraphImage: 'https://rahilbinmushfiq.vercel.app/_next/image?url=%2Fmockups%2Fportfolio%2FallDevices.webp&w=1920&q=75',
+    openGraphImage: 'https://rahil-dev.vercel.app/_next/image?url=%2Fmockups%2Fportfolio%2FallDevices.webp&w=1920&q=75',
     title: 'My Portfolio',
     summary: 'A responsive portfolio web app where viewers can view my personal projects, as well as learn about me and my skills as a web developer.',
     informativeSections: [
@@ -233,7 +232,7 @@ export const projects = [
       { name: 'Tailwind', logo: '/tech/tailwind.png', },
       { name: 'GSAP', logo: '/tech/gsap.png', },
     ],
-    demoLink: 'https://rahilbinmushfiq.vercel.app/',
-    codeLink: 'https://github.com/rahilbinmushfiq/portfolio',
+    demoLink: 'https://rahil-dev.vercel.app/',
+    codeLink: 'https://github.com/rahilbinmushfiq/dev-portfolio',
   },
 ];

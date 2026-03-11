@@ -14,12 +14,12 @@ export function generateMetadata({ params: { projectId } }) {
       title: `${project.title} | Project | Rahil Bin Mushfiq`,
       description: project.summary,
       alternates: {
-        canonical: `https://rahilbinmushfiq.vercel.app/project/${projectId}`,
+        canonical: `https://rahil-dev.vercel.app/project/${projectId}`,
       },
       openGraph: {
         title: `${project.title} | Project | Rahil Bin Mushfiq`,
         description: project.summary,
-        url: `https://rahilbinmushfiq.vercel.app/project/${projectId}`,
+        url: `https://rahil-dev.vercel.app/project/${projectId}`,
         siteName: 'Rahil Bin Mushfiq',
         images: [
           {
@@ -35,8 +35,8 @@ export function generateMetadata({ params: { projectId } }) {
         card: 'summary_large_image',
         title: `${project.title} | Project | Rahil Bin Mushfiq`,
         description: project.summary,
-        domain: 'https://rahilbinmushfiq.vercel.app',
-        url: `https://rahilbinmushfiq.vercel.app/project/${projectId}`,
+        domain: 'https://rahil-dev.vercel.app',
+        url: `https://rahil-dev.vercel.app/project/${projectId}`,
         images: [
           {
             url: project.openGraphImage,

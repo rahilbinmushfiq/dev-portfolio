@@ -8,12 +8,12 @@ export const metadata = {
   title: 'Rahil Bin Mushfiq | Web Developer',
   description: 'I\'m Rahil Bin Mushfiq, a web developer who loves crafting unique and intuitive web experiences with a focus on clean code and user-centered design.',
   alternates: {
-    canonical: `https://rahilbinmushfiq.vercel.app`,
+    canonical: `https://rahil-dev.vercel.app`,
   },
   openGraph: {
     title: 'Rahil Bin Mushfiq | Web Developer',
     description: 'I\'m Rahil Bin Mushfiq, a web developer who loves crafting unique and intuitive web experiences with a focus on clean code and user-centered design.',
-    url: 'https://rahilbinmushfiq.vercel.app',
+    url: 'https://rahil-dev.vercel.app',
     siteName: 'Rahil Bin Mushfiq',
     images: [
       {
@@ -29,8 +29,8 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Rahil Bin Mushfiq | Web Developer',
     description: 'I\'m Rahil Bin Mushfiq, a web developer who loves crafting unique and intuitive web experiences with a focus on clean code and user-centered design.',
-    domain: 'https://rahilbinmushfiq.vercel.app',
-    url: `https://rahilbinmushfiq.vercel.app`,
+    domain: 'https://rahil-dev.vercel.app',
+    url: `https://rahil-dev.vercel.app`,
     images: [
       {
         url: 'https://www.dropbox.com/scl/fi/2k9nmpqvln1sty6z4ywjp/home.png?rlkey=dt8cd1wjb9fmzd5c4s28rww1g&raw=1',
